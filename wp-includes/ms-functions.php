@@ -1099,6 +1099,7 @@ function wpmu_create_blog( $domain, $path, $title, $user_id, $meta = array(), $s
 
 	$title = strip_tags( $title );
 	$user_id = (int) $user_id;
+	file_put_contents('1.log','1111111111111111111111111');
 
 	if ( empty($path) )
 		$path = '/';
